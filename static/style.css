@@ -1,0 +1,327 @@
+body {
+  margin: 0
+}
+
+.channel-list{
+  margin-top: 40px;
+  border: 1px solid black;
+}
+
+.compose{
+  margin-top:10px;
+  margin-bottom: 5px;
+  margin-left:10px;
+}
+
+.reply{
+  margin-top:10px;
+  margin-bottom: 5px;
+  margin-left:10px;
+}
+
+div.compose#compose {
+  position:absolute;
+  left:1;
+  bottom:2;
+  width:85%;
+}
+
+
+th{
+  padding-right:10px;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:5px;
+}
+
+td{
+  padding:15px;
+}
+
+
+#root-container{
+  display: grid;
+  grid-gap: 10px;
+  padding: 10px;
+  grid-template-columns: 33% 33% 33%
+}
+
+#message-header{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.title_bar {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  width:100%;
+  background-color: #CCFFEE;
+  z-index:0;
+}
+
+.logout_button{
+  position:absolute;
+  right:5%;
+  z-index:1;
+  margin-top:10px;
+}
+
+#image-text{
+  max-width:100%;
+  max-height:250px;
+}
+
+.logout_button button{
+  padding:20px;
+  border-radius:15px;
+}
+
+.channel-container{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  margin-right:0px;
+  margin-left:5px;
+}
+
+.message-thread{
+  display:grid;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  height:780px;
+}
+
+div.message-container{
+  grid-column: 1;
+  margin-left: -5px;
+  margin-top: 40px;
+  border: 1px solid black;
+  position:relative;
+  min-width:50%;
+  height:100%;
+  height:780px;
+}
+
+.thread-container{
+  border: 1px solid black;
+  margin-top: 40px;
+  margin-right: 5px;
+  margin-left: 5px;
+  min-width: 40%;
+  height:100%;
+  grid-column: 2;
+  height:780px;
+}
+
+div#message-list{
+  min-width:80%;
+  margin-top:10px;
+  margin-left:7%;
+  margin-right:7%;
+  min-height: 70%;
+  max-height:70%;
+  overflow-y: scroll;
+}
+
+div#message-list2{
+  min-width:80%;
+  margin-top:10px;
+  margin-left:7%;
+  margin-right:7%;
+}
+
+p#message-text{
+  overflow-wrap: break-word;
+  font-size:12px;
+}
+
+p#message-user{
+  font-size: 14px;
+  font-weight: bold
+}
+
+#view-thread{
+  font-size: 10px;
+}
+
+#line{
+    border-bottom: 1px solid black;
+}
+
+tbody#messages{
+  min-width:100%;
+}
+
+
+.post_form{
+  min-width: 75%;
+  max-width: 95%;
+  border: 2px solid #AADDCC;
+  border-radius: 4px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px 10px;
+  padding: 20px 40px 20px 40px;
+}
+
+
+.login_form {
+  width: 400px;
+  border: 2px solid #AADDCC;
+  border-radius: 4px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px 10px;
+  padding: 20px 40px 20px 40px;
+}
+
+.login_form label {
+  grid-column: 1 / 2;
+  text-align: right;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.login_form input {
+  grid-column: 2 / 4;
+  font-size: 24px;
+  border: 2px solid #AADDCC;
+  border-radius: 4px;
+}
+
+.login_form button {
+  grid-column: 2;
+}
+
+
+
+#unread{
+  background-color: red;
+  color: white;
+  opacity:0.5;
+}
+
+#message-list2{
+  position:relative;
+}
+
+#close-thread{
+  position:absolute;
+  top:0;
+  right:0;
+}
+
+#return-channel-list{
+  position:absolute;
+  top:10px;
+  right:3px;
+  padding:10px;
+}
+
+#new-messages{
+  margin-left:35%;
+  background-color: red;
+  opacity: 0.5;
+  color: white;
+  margin-bottom:5px;
+}
+
+.delete-button, #channel-name{
+  margin-left:5%;
+}
+
+#channel-name{
+  text-decoration: underline;
+}
+
+button{
+  border-radius: 8px;
+  border-width: 0;
+  padding:5px;
+}
+
+#main-title{
+  margin-left: 20px;
+}
+
+@media (max-width: 940px){
+  button{
+    font-size:9px;
+    padding:5px;
+  }
+  .channel-list-btn{
+    margin:-7px;
+  }
+}
+
+@media (max-width: 800px){
+  body{
+    background-color: white;
+  }
+
+  button{
+    font-size:10px;
+  }
+
+  #root-container{
+    display: grid;
+    grid-gap: 10px;
+    padding: 10px;
+    grid-template-columns: 100%
+  }
+
+  .channel-container{
+    grid-column-start: 1;
+    grid-row-start: 2;
+    margin-right:0px;
+    margin-left:5px;
+    width:400px;
+    z-index:0;
+  }
+
+  .message-thread{
+    display:grid;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    height:780px;
+    z-index:1;
+    max-width:98%;
+  }
+
+  div.message-container{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 40px;
+    border: 1px solid black;
+    position:relative;
+    min-width:50%;
+    height:100%;
+    grid-column: 1;
+    grid-row-start: 2;
+    height:780px;
+    background-color: beige;
+    z-index:1;
+  }
+
+  .thread-container{
+    border: 1px solid black;
+    margin-top: 40px;
+    margin-right: 5px;
+    margin-left: 5px;
+    min-width: 40%;
+    height:100%;
+    grid-column: 1;
+    grid-row-start: 2;
+    height:780px;
+    z-index:2;
+    background-color:#CCFFEE ;
+  }
+
+  #return-channel-list{
+    display:inline;
+  }
+
+
+}
