@@ -12,21 +12,21 @@
 
 - **Sign Up, Login and Logout:**
 
-<img src="https://mit.cs.uchicago.edu/mpcs52553-win-21/dominicteo/raw/master/final_project/images/login_signup.gif" />
+<img src="https://github.com/domteo95/web-dev-final/blob/main/images/login_signup.gif" />
 
 - **Creating a Channel, Posting text & image in a Channel, Posting in a Thread:**
 
-<img src="https://mit.cs.uchicago.edu/mpcs52553-win-21/dominicteo/raw/master/final_project/images/channel_and_thread.gif" />
+<img src="https://github.com/domteo95/web-dev-final/blob/main/images/channel_and_thread.gif" />
 
 - **Inserting a new message through SQL and getting the new message & unread message updates:**
 
-<img src ='https://mit.cs.uchicago.edu/mpcs52553-win-21/dominicteo/raw/master/final_project/images/new_message_update.gif'>
+<img src ='https://github.com/domteo95/web-dev-final/blob/main/images/new_message_update.gif'>
 
 - **Mobile layout - 1 col with buttons to navigate:**
 
-<img src='https://mit.cs.uchicago.edu/mpcs52553-win-21/dominicteo/raw/master/final_project/images/mobile_layout.gif'/>
+<img src='https://github.com/domteo95/web-dev-final/blob/main/images/mobile_layout.gif'/>
 
 
 - **Accessing different react components through URL**
 
-<img src='https://mit.cs.uchicago.edu/mpcs52553-win-21/dominicteo/raw/master/final_project/images/access_url.gif' />
+<img src='https://github.com/domteo95/web-dev-final/blob/main/images/access_url.gif' />
